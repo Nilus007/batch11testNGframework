@@ -1,0 +1,27 @@
+package com.techproed.smokeTest;
+
+
+import com.techproed.Pages.GlbSignUpPage;
+import com.techproed.utility.ConfigReader;
+import com.techproed.utility.Driver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class GlbSmokeTest {
+
+    @Test
+    public void signUp() {
+
+        Driver.getDriver().get(ConfigReader.getProperty("gt_signUp_url"));
+        GlbSignUpPage glbSignUpPage = new GlbSignUpPage();
+        glbSignUpPage.email.sendKeys(ConfigReader.getProperty("gt_email"));
+        glbSignUpPage.name.sendKeys(ConfigReader.getProperty("gt_name"));
+        glbSignUpPage.mobile.sendKeys(ConfigReader.getProperty("gt_tel"));
+        glbSignUpPage.passText.sendKeys(ConfigReader.getProperty("gt_pasword"));
+        glbSignUpPage.repassText.sendKeys(ConfigReader.getProperty("gt_pasword"));
+
+        glbSignUpPage.loginButton.click();
+
+        Assert.assertEquals(glbSignUpPage.successTex.getText(), "Success! !");
+    }
+}
