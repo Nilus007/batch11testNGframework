@@ -1,10 +1,9 @@
 package com.techproed.tests;
 
-import com.techproed.utility.TestBase;
+import com.techproed.utilities.TestBase;
 import org.testng.annotations.Test;
 
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class D15_filePath extends TestBase {

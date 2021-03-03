@@ -1,4 +1,4 @@
-package com.techproed.utility;
+package com.techproed.utilities;
 
 public class ReusableMethods {
 }

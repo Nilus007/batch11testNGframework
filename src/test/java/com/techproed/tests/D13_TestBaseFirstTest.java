@@ -1,9 +1,9 @@
 package com.techproed.tests;
 
-import com.techproed.utility.TestBase;
+import com.techproed.utilities.TestBase;
 import org.testng.annotations.Test;
 
-public class D13_TestBaseİlkTest extends TestBase {
+public class D13_TestBaseFirstTest extends TestBase {
 
     @Test
     public void test() {

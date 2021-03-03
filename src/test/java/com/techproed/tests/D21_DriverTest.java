@@ -1,6 +1,6 @@
 package com.techproed.tests;
 
-import com.techproed.utility.Driver;
+import com.techproed.utilities.Driver;
 import org.testng.annotations.Test;
 
 public class D21_DriverTest {

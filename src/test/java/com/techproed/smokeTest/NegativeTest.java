@@ -1,7 +1,7 @@
 package com.techproed.smokeTest;
 
 import com.github.javafaker.Faker;
-import com.techproed.utility.TestBase;
+import com.techproed.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

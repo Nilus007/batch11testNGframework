@@ -7,20 +7,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class D14_KeyBoardActions2 extends TestBase {
+public class ExampleKeywordaction extends TestBase {
     @Test
-    public void test() throws InterruptedException {
-        driver.get("https://www.facebook.com");
+    public void test() {
+        driver.get("https://www.facebook.com/");
 
-        Actions actions=new Actions(driver);
-        WebElement userNameBox=driver.findElement(By.id("email"));
-        actions.click(userNameBox)
+        Actions actions = new Actions(driver);
+        WebElement username = driver.findElement(By.id("email"));
+
+        actions.click(username)
                 .sendKeys("mehmet")
                 .sendKeys(Keys.TAB)
                 .sendKeys("12345")
                 .sendKeys(Keys.TAB)
                 .sendKeys(Keys.ENTER)
                 .perform();
-        Thread.sleep(5000);
     }
 }

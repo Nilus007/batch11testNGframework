@@ -1,15 +1,11 @@
 package com.techproed.tests;
 
-import com.techproed.utility.TestBase;
+import com.techproed.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.beans.PropertyChangeListener;
 
 public class D14_MouseActions3 extends TestBase {
     @Test

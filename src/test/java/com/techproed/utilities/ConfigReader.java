@@ -1,4 +1,4 @@
-package com.techproed.utility;
+package com.techproed.utilities;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

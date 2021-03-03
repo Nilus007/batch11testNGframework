@@ -2,8 +2,8 @@ package com.techproed.smokeTest;
 
 
 import com.techproed.Pages.GlbSignUpPage;
-import com.techproed.utility.ConfigReader;
-import com.techproed.utility.Driver;
+import com.techproed.utilities.ConfigReader;
+import com.techproed.utilities.Driver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

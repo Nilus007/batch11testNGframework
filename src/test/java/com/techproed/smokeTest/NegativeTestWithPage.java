@@ -1,7 +1,7 @@
 package com.techproed.smokeTest;
 
 import com.techproed.Pages.CrsytalHotelPage;
-import com.techproed.utility.TestBase;
+import com.techproed.utilities.TestBase;
 import org.testng.annotations.Test;
 
 public class NegativeTestWithPage extends TestBase {

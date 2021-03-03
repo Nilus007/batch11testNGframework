@@ -1,6 +1,6 @@
 package com.techproed.Pages;
 
-import com.techproed.utility.Driver;
+import com.techproed.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
